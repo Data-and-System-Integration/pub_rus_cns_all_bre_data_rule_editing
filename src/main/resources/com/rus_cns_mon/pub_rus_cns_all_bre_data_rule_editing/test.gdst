@@ -23,7 +23,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>100</width>
+          <width>218</width>
           <header>npd_100</header>
           <constraintValueType>1</constraintValueType>
           <factField>data_npd_attr_100</factField>
@@ -47,7 +47,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>100</width>
+      <width>130</width>
       <header>npd_216</header>
       <boundName>cns</boundName>
       <factField>data_npd_attr_216</factField>
