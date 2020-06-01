@@ -94,17 +94,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>#</name>
-              <className>java.lang.Integer</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>Index</name>
-              <type>OTHER</type>
-            </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>1|1</name>
               <className>com.rus_cns_mon.pub_rus_cns_all_bre_data_rule_editing.cns_combined_model</className>
             </factIdentifier>
@@ -112,7 +101,6 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">1</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -123,7 +111,17 @@
               <name>1|2</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
