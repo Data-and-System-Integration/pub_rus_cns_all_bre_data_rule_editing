@@ -6,19 +6,25 @@
     <persistence-mode>JPA</persistence-mode>
     <runtime-strategy>SINGLETON</runtime-strategy>
     <marshalling-strategies/>
-    <event-listeners/>
+    <event-listeners>
+        <event-listener>
+            <resolver>mvel</resolver>
+            <identifier></identifier>
+            <parameters/>
+        </event-listener>
+    </event-listeners>
     <task-event-listeners/>
-    <globals/>
+    <globals>
+        <global>
+            <resolver>mvel</resolver>
+            <identifier></identifier>
+            <parameters/>
+            <name></name>
+        </global>
+    </globals>
     <work-item-handlers/>
     <environment-entries/>
-    <configurations>
-        <configuration>
-            <resolver>mvel</resolver>
-            <identifier>false</identifier>
-            <parameters/>
-            <name>drools.dialect.mvel.strict</name>
-        </configuration>
-    </configurations>
+    <configurations/>
     <required-roles/>
     <remoteable-classes/>
     <limit-serialization-classes>true</limit-serialization-classes>
