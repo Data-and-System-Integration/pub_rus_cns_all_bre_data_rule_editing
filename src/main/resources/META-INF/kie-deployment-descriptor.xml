@@ -10,15 +10,7 @@
         <event-listener>
             <resolver>mvel</resolver>
             <identifier>WorkingMemoryListener</identifier>
-            <parameters>
-                <parameter xsi:type="objectModel">
-                    <resolver>mvel</resolver>
-                    <identifier>java.lang.String</identifier>
-                    <parameters>
-                        <parameter xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema"></parameter>
-                    </parameters>
-                </parameter>
-            </parameters>
+            <parameters/>
         </event-listener>
     </event-listeners>
     <task-event-listeners/>
