@@ -9,20 +9,7 @@
     <width>150</width>
   </descriptionCol>
   <metadataCols/>
-  <attributeCols>
-    <attribute-column52>
-      <typedDefaultValue>
-        <valueString>mvel</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </typedDefaultValue>
-      <hideColumn>false</hideColumn>
-      <width>119</width>
-      <attribute>dialect</attribute>
-      <reverseOrder>false</reverseOrder>
-      <useRowNumber>false</useRowNumber>
-    </attribute-column52>
-  </attributeCols>
+  <attributeCols/>
   <conditionPatterns>
     <Pattern52>
       <factType>cns_combined_model</factType>
@@ -115,11 +102,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>java</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -139,11 +121,6 @@
       </value>
       <value>
         <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>mvel</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
