@@ -2,7 +2,7 @@
   <kbase name="kbase" default="true" eventProcessingMode="cloud" equalsBehavior="identity" packages="com.rus_cns_mon.pub_rus_cns_all_bre_data_rule_editing">
     <ksession name="ksession" type="stateless" default="true" clockType="realtime">
       <listeners>
-        <ruleRuntimeEventListener type="WorkingMemoryListener"/>
+        <agendaEventListener type="WorkingMemoryListener"/>
       </listeners>
     </ksession>
   </kbase>
