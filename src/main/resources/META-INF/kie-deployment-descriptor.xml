@@ -8,7 +8,7 @@
     <marshalling-strategies/>
     <event-listeners>
         <event-listener>
-            <resolver>mvel</resolver>
+            <resolver>spring</resolver>
             <identifier>WorkingMemoryListener</identifier>
             <parameters/>
         </event-listener>
