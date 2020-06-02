@@ -115,7 +115,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>mvel</valueString>
+        <valueString>java</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
