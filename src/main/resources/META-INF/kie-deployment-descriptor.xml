@@ -6,22 +6,9 @@
     <persistence-mode>JPA</persistence-mode>
     <runtime-strategy>SINGLETON</runtime-strategy>
     <marshalling-strategies/>
-    <event-listeners>
-        <event-listener>
-            <resolver>mvel</resolver>
-            <identifier></identifier>
-            <parameters/>
-        </event-listener>
-    </event-listeners>
+    <event-listeners/>
     <task-event-listeners/>
-    <globals>
-        <global>
-            <resolver>mvel</resolver>
-            <identifier></identifier>
-            <parameters/>
-            <name></name>
-        </global>
-    </globals>
+    <globals/>
     <work-item-handlers/>
     <environment-entries/>
     <configurations/>
