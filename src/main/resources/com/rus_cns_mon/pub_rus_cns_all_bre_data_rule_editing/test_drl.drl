@@ -1,10 +1,10 @@
 package com.rus_cns_mon.pub_rus_cns_all_bre_data_rule_editing;
-import org.drools.*;
+import org.drools.WorkingMemory.*;
 
 rule "reset calculate"
     ruleflow-group "reset calculate"
 when
 then
     WorkingMemory wm = drools.getWorkingMemory();
-    wm.setData_extended_npd_attr_1( "10" );
+    //wm.setData_extended_npd_attr_1( "10" );
 end
