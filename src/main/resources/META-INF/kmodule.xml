@@ -1,6 +1,6 @@
 <kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <kbase name="kbase" default="true" eventProcessingMode="cloud" equalsBehavior="identity" packages="com.rus_cns_mon.pub_rus_cns_all_bre_data_rule_editing">
-    <ksession name="ksession" type="stateless" default="true" clockType="realtime">
+    <ksession name="ksession" type="stateful" default="true" clockType="realtime">
       <listeners>
         <ruleRuntimeEventListener type="WorkingMemoryListener"/>
       </listeners>
