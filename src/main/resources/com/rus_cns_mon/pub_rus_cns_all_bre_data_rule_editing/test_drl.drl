@@ -6,7 +6,7 @@ rule "Row 1 test_drl"
 	when
 		cns : cns_combined_model( data_npd_attr_100 == "1" )
 	then
-		cns.setData_npd_attr_216( "2" );
+		cns.setData_npd_attr_217( "2" );
 end
 
 //from row number: 1
@@ -14,5 +14,5 @@ rule "Row 2 test_drl"
 	dialect "mvel"
 	when
 	then
-		cns.setData_npd_attr_216( "100" );
+		cns.setData_npd_attr_217( "100" );
 end
