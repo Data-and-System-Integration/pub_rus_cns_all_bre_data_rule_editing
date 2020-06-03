@@ -10,7 +10,7 @@ rule "Row 1 test_drl"
 end
 
 //from row number: 1
-rule "Row 1 test_drl"
+rule "Row 2 test_drl"
 	dialect "mvel"
 	when
 	then
