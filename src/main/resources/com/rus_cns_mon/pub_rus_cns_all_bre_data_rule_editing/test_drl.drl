@@ -14,5 +14,5 @@ rule "Row 2 test_drl"
 	dialect "mvel"
 	when
 	then
-		cns.setData_npd_attr_216( "2" );
+		cns.setData_npd_attr_216( "100" );
 end
