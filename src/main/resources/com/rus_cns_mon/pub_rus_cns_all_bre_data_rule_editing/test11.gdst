@@ -125,9 +125,9 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>any</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
+        <isOtherwise>true</isOtherwise>
       </value>
       <value>
         <valueString>10</valueString>
