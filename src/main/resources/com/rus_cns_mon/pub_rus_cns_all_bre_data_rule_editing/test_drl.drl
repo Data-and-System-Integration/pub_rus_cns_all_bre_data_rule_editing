@@ -1,2 +1,10 @@
 package com.rus_cns_mon.pub_rus_cns_all_bre_data_rule_editing;
 
+//from row number: 1
+rule "Row 1 test_drl"
+	dialect "mvel"
+	when
+		cns : cns_combined_model( data_npd_attr_100 == "1" )
+	then
+		cns.setData_npd_attr_216( "2" );
+end
