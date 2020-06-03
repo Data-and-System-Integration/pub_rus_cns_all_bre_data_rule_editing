@@ -75,7 +75,6 @@
           <columnWidth>505.5</columnWidth>
         </FactMapping>
       </factMappings>
-      <dmoSession>ksession</dmoSession>
       <type>RULE</type>
       <skipFromBuild>false</skipFromBuild>
       <stateless>false</stateless>
