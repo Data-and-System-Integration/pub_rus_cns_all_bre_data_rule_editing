@@ -125,7 +125,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1==1</valueString>
+        <valueString>any</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
