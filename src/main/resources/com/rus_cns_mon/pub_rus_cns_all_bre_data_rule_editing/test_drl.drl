@@ -8,3 +8,11 @@ rule "Row 1 test_drl"
 	then
 		cns.setData_npd_attr_216( "2" );
 end
+
+//from row number: 1
+rule "Row 1 test_drl"
+	dialect "mvel"
+	when
+	then
+		cns.setData_npd_attr_216( "2" );
+end
