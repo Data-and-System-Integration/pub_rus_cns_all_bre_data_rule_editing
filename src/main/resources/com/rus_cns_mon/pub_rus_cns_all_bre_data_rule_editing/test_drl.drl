@@ -13,6 +13,7 @@ end
 rule "Row 2 test_drl"
 	dialect "mvel"
 	when
+	1==1
 	then
 		cns.setData_npd_attr_217( "100" );
 end
